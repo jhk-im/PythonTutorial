@@ -1,5 +1,25 @@
 # 1. 네이버 날씨 미세먼지 가져오기 - 파이썬 레시피 웹 활용 입문편
 
+#python 빌드를 위한 패키지 설치
+#sudo apt-get update
+#sudo apt-get upgrade
+#sudo apt-get dist-upgrade
+#sudo apt-get install build-essential python-dev python-setuptools python-pip python-smbus
+#sudo apt-get install libncurses5-dev libgdbm-dev libc6-dev
+#sudo apt-get install zlib1g-dev libsqlite3-dev tk-dev
+#sudo apt-get install libssl-dev openssl
+#sudo apt-get install libffi-dev
+
+#python 설치
+#wget https://www.python.org/ftp/python/3.7.4/Python-3.7.4.tgz
+#sudo tar xvfz Python-3.7.4.tgz
+#sudo cd Python-3.7.4
+#sudo ./configure --enable-optimizations
+#sudo make
+#sudo make install
+#python3 -V
+#sudo apt-get install idle-python3.7
+#idle-python3.7
 
 
 #Beautifulsoup ?
