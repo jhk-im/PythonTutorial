@@ -22,7 +22,7 @@ driver = webdriver.Chrome('chromedriver')
 driver.get('http://zzzscore.com/color/')
 driver.implicitly_wait(300)
 
-btns = driver.find_elements_by_xpath('//*[@id="grid"]/div ')
+btns = driver.find_elements_by_xpath('//*[@id="grid"]/div')
 #print(len(btns))
 
 # 정답 탐색 및 클릭 모듈
@@ -38,7 +38,7 @@ def analysis():
     #정답찾기
     # from collections import Counter 참조
     result = Counter(btns_rgba)
-    #pprint(result) # value가 1이면 정답
+    pprint(result) # value가 1이면 정답
 
     #value 1 탐색
     for key, value in result.items():

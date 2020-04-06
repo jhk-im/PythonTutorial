@@ -9,7 +9,6 @@ html = requests.get("http://comic.naver.com/webtoon/weekday.nhn")
 soup = BeautifulSoup(html.text, 'html.parser')
 html.close()
 
-
 #요일별 모든웹툰 표시 영역 추출
 data1 = soup.find('div',{'class':'col_inner'})
 #pprint(data1)
@@ -61,4 +60,4 @@ for divisionData1 in data_list:
     week_title_list.append(title_list3)
 
 pprint(week_title_list)
-#week_title_list 안에 요일별로 2차원 리스트가 작성된다. 
+#week_title_list 안에 요일별로 2차원 리스트가 작성된다.
